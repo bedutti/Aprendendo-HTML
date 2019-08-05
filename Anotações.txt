@@ -1,0 +1,23 @@
+Marcas em HTML:
+Uma marca em html é tudo aquilo escrito entre os sinais < >.
+
+<!DOCTYPE html> => inicia um arquivo dizendo ao navegador que este arquivo será um HTML
+<html lang="pt-br"> => inicia o trecho do código em html - lang diz ao navegador qual a ligua do site
+<head> => cabeçalho - aqui são indicados os comportamentos do site
+    <meta charset="UTF-8"> => diz qual é o conjunto de caracteres UTF-8 é o conjunto latino
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olá Mundo</title> => diz qual o titulo do site, o que aparece da aba da janela
+    <style> => é aqui que entra o CSS, ele pode ficar em um arquivo separado usando o link:css
+	h1{
+		color: black;
+	}
+    </style>
+</head> =>
+<body> => corpo do site, na teoria tudo aquilo que irá aparecer
+    <h1> ... </h1> => um título h1 é o título principal, idealmente devemos usar apenas um no site
+    <h2> ... </h2> => um subtítulo de h1
+    <h3> ... </h3> => um subtítulo de h1 e h2 e assim por diante...
+</body>
+</html> =>finaliza o trecho do código em html
+
