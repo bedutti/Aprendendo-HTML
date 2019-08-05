@@ -21,3 +21,53 @@ Uma marca em html é tudo aquilo escrito entre os sinais < >.
 </body>
 </html> =>finaliza o trecho do código em html
 
+<b> ... </b> => negrito
+<i> ... </i> => italico
+<em> ... </em> => enfase (tipo o italico mas da uma enfase maior!)
+<del> ... </del> => texto riscado no meio
+&nbsp; => um espaço em branco
+<br> => quebra de linha
+<wbr> => quebra de palavra, sem hífen
+&shy; => quebra de texto com hífen automático
+&lt; => < menor que
+&gt; => > maior que
+&le; => menor ou igual a
+&ge; => maior ou igual a
+&pound; => libra
+&yen; => ienes
+&euro; => euros
+&copy; => copyright
+&reg; => marca registrada
+&tm; => trademark
+&permil; => dividido por mil
+&sum; => soma aquele E diferente
+&infin; => infinito
+&times; => multiplicação
+&plusmn; => mais ou menos
+&oplus; => mais dentro de um circulo
+&radc; => raiz quadrada
+&ne; => diferente
+&delta; => grego delta minusculo
+&Delta; => grego delta maiusculo
+&Lambda;
+&Omega;
+&Phi;
+&larr; => left arrow
+&rarr; => right arrow
+&uarr; => up arrow
+&darr; => down arrow
+&harr; => seta para os dois lados
+&spades; => nipes
+&clubs;
+&hearts;
+&diams;
+<sup> ... </sup> => sobrescrito
+<sub> ... </sub> => subescrito
+<code> ... </code> => diz ao navegador que estamos escrevendo um código
+<pre> ... </pre> => preformatado, respeitando espaçoes e enters
+<figure> => da um significado semantico para a imagem
+	<img> </img>
+	<figcaption>
+		<h3>Google Glass</h3> => bom para mecanismos de busca te encontrar
+	</figcaption>
+</figure>
