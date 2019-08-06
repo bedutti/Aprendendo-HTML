@@ -1,2 +1,25 @@
 <spam> ... </spam> => usado para editar pequenos trechos de texto
 <spam style="text-decoration: underline;"> ... </spam>
+<nav> => cria um menu de navegação
+    <ol type="1" start="1"> => cria uma lista ordenada com numeração automática (ul é uma lista não ordenada com pontos)
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+</nav>
+no ol temos o type="" 1 a A i I e o start="" mostra daonde começar a contar
+no ul temos o type="" square, circle e disc
+<a href="http://glass.google.com" target="_blank">Project Glass</a> => criar um link
+target="_blank" "_self"
+
+Sempre que um item tiver classe, utilizar ponto figure.foto-legenda
+Sempre que um item tiver id, utilizar cerquilha nav#menu
+
+Posição relative deixa o item preso dentro do container
+Posição absoluta deixa ele livre pela tela toda
+position: absolute / relative
+
+Para centralizar uma div utilize as margens
+margin: xx xx xx xx; (cima direita baixo esquerda)
+margin: -20px auto 0px auto;
