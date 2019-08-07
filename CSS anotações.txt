@@ -23,3 +23,12 @@ position: absolute / relative
 Para centralizar uma div utilize as margens
 margin: xx xx xx xx; (cima direita baixo esquerda)
 margin: -20px auto 0px auto;
+
+Para adicionar uma fonte própria ao site basta colocar na começo do css:
+@font-face{
+    font-family: 'darUmNomeQualquer';
+    src: url("../fonts/nomeDaFonte.ttf")
+}
+
+Existem fontes no google fonts (https://fonts.google.com/)
+De lá terá como colocar as fonts no seu site com o @import
