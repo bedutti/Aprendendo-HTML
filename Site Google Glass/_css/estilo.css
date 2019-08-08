@@ -16,9 +16,10 @@ div#interface{
     padding: 10px 10px 10px 10px; 
 }
 header#cabecalho img#icone{
-    position: absolute;
-    left: 780px;
-    top: 70px;
+    position: relative;
+    left: 750px;
+    top: -50px;
+
 }
 header#cabecalho{
     border-bottom: 1px #606060 solid;
@@ -75,9 +76,9 @@ figure.foto-legenda:hover figcaption{ /* Esse é o evento mouseover sobre a imag
 nav#menu ul{
     list-style: none; /* Apaga os marcadores de itens, numeros por exemplo */
     text-transform: uppercase; /* Deixa tudo em maiusculo */
-    position: absolute;
-    top: -20px;
-    left: 300px;
+    position: relative;
+    top: -263px;
+    left: 250px;
 }
 nav#menu li{
     display: inline-block;
@@ -102,4 +103,56 @@ nav#menu a{ /* Configurando os links dentro do menu de navegação */
 }
 nav#menu a:hover{
     color: white;
+}
+section#corpo{
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+table#tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td{
+    border: 1px solid #606060; 
+    padding: 10px; /* Espaço extra dentro de cada celula em volta de cada texto */
+    text-align: right;
+}
+table#tabelaspec td.ce{
+    color: white;
+    background-color: #606060;   
+    vertical-align: top;       
+    font-weight: bold;
+}
+table#tabelaspec td.cd{
+    background-color: #cecece;  
+    text-align: left;
+}
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabelaspec span{ 
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
 }

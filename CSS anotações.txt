@@ -32,3 +32,34 @@ Para adicionar uma fonte própria ao site basta colocar na começo do css:
 
 Existem fontes no google fonts (https://fonts.google.com/)
 De lá terá como colocar as fonts no seu site com o @import
+
+section => Sessão
+aside => conteúdo lateral, conteúlo periférico
+footer => rodapé
+
+section#corpo{ => fará com a sessão corpo fique do lado esquerdo
+    display: block;
+    width: 600px;
+    float: left;
+}
+aside#lateral{ => fará com que a lateral fique do lado direito
+    display: block;
+    width: 300;
+    float: right;
+}
+
+<table>
+<caption>Titulo da tabela</caption>
+<tr>linhas</tr>
+<tr><td>coluna</td><td>coluna</td></tr>
+<tr><td>coluna</td><td>coluna</td></tr>
+<tr><td>coluna</td><td>coluna</td></tr>
+</table>
+
+<td rowspan="2"> => faz com que uma celula qualquer ocupe duas linhas
+<td colspan="2"> => faz com que uma celula qualquer ocupe duas colunas
+
+Importante! id só pode ser aplicado em um objeto, quando for trabalhar com mais de um utilizar class
+id em css usa # class usa .
+
+usar <span>texto</span> para separar textos e no css utilize display: block; para soltar o texto e jogar pra onde quiser com o float:right; (por exemplo)
