@@ -63,3 +63,7 @@ Importante! id só pode ser aplicado em um objeto, quando for trabalhar com mais
 id em css usa # class usa .
 
 usar <span>texto</span> para separar textos e no css utilize display: block; para soltar o texto e jogar pra onde quiser com o float:right; (por exemplo)
+
+<article>
+separa a sessão por artigos
+</article>
