@@ -52,7 +52,7 @@
                             </fieldset>
                             <fieldset id="endereco">
                                 <legend>Endereço do Usuário</legend>
-                                    <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Avenida, Travessa..."></p>
+                                    <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="30" maxlength="80" placeholder="Rua, Avenida, Travessa..."></p>
                                     <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999"</p>
                                     <p>
                                         <label for="cEst">Estado:</label>
@@ -71,16 +71,22 @@
                             <fieldset id="mensagem">
                                 <legend>Mensagem do Usuário</legend>
                                     <p><label for="cUrg">Grau de Urgência:</label> Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
-                                    <p><label for="cMsg">Mensagem:</label><textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem..."></textarea></p>
+                                    <p><label for="cMsg">Mensagem:</label><textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem..."></textarea></p>
                             </fieldset>
                             <fieldset id="pedido">
                                 <legend>Quero um Google Glass</legend>
+                                <p>
+                                    <input type="checkbox" name="tPed" id="cPed" checked>
                                     <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label>
+                                </p>
+                                <p>
                                     <label for="cCor">Cor:</label>
-                                    <label for="cQtd">Quantidade:</label>
-                                    <label for="cTot">Preço Total: R$</label>
+                                    <input type="color" name="tCor" id="cCOr" value="#0000FF">
+                                </p>
+                                <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" value=0 min="0" max="5" oninput="calcTotal()"></p>
+                                <p><label for="cTot">Preço Total: R$ </label><input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly></p>
                             </fieldset>
-                            [BOTÃO ENVIAR]
+                            <input type="image" src="_imagens/botao-enviar.png" alt="" name="tEnviar">
                         </form>
                     </article>
                 </section>
