@@ -67,3 +67,17 @@ usar <span>texto</span> para separar textos e no css utilize display: block; par
 <article>
 separa a sessão por artigos
 </article>
+
+mapear imagem usando o gimp (filtro - web - mapear)
+
+para criar um formulário de preenchimento em HTML usar:
+
+<form method="" id="" action="">
+<label for="caixaDeTexto"> nome da label </label>   <input type="text"> =>para uma caixa de texto
+
+</form>
+
+method="get" = mais rapido, porem menos seguro, manda os dados via barra de endereço
+method="post" = menos rapido porém manda um pacote, mais seguro
+para ter segurança é necessário usar mais criptografia => estudar isso
+action é como os dados serão transmitidos, por exemplo por email (acition="mailto:rodrigobedutti@gmail.com")

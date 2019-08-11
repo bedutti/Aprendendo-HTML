@@ -10,7 +10,7 @@ body{
     font-family: Arial, sans-serif;
 }
 div#interface{
-    width: 900px;
+    width: 1000px;
     background-color: white;
     margin: -20px auto 0px auto; /* cima direita baixo esquerda */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -18,7 +18,7 @@ div#interface{
 }
 header#cabecalho img#icone{
     position: relative;
-    left: 730px;
+    left: 840px;
     top: -40px;
 
 }
@@ -90,9 +90,11 @@ nav#menu ul{
 }
 nav#menu li{
     display: inline-block;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
     background-color: #dddddd;
     padding: 10px; /* Cria um espaço dentro do objeto */
-    margin: 4px; /* Cria um espaço fora do objeto */
+    margin:  -3px; /* Cria um espaço fora do objeto */
     transition: background-color 1s; /* Da um efeito de transição ao passar o mouse por cima do botão do menu */
     position: relative;
 }
@@ -114,7 +116,7 @@ nav#menu a:hover{
 }
 section#corpo{
     display: block;
-    width: 500px;
+    width: 600px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
@@ -205,4 +207,11 @@ footer#rodape{
 }
 footer#rodape p{
     text-align: center;
+}
+video#filme01{
+    width: 100%;
+    
+}
+video#filme02{
+    width: 100%;
 }
